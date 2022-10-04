@@ -61,7 +61,7 @@ header{
 /*search-container*/
 
 #search-container{
-    background-image: url("../img/dj1.jpg");
+    background-image: url("../img/global.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -102,7 +102,8 @@ margin-bottom: 30px;
     max-width: 25%;
     border-radius: 10px;
     padding: 0;
-    margin: 5px;
+    margin: .5%px;
+    margin-bottom: 5px;
 }
 
 #events-container img{
