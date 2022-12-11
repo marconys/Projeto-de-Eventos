@@ -20,6 +20,9 @@
     {{-- CSS --}}
     <link rel="stylesheet" href="/css/myStyles.css">
 
+    {{-- Icons-bootstrap --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
 <body>
 
     <header>
@@ -61,7 +64,6 @@
     </main>
 
     <footer>Events &copy;2022</footer>
-
 </body>
 
 </html>
