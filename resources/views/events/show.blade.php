@@ -15,6 +15,12 @@
             <p class="events-participantes"><i class="bi bi-people-fill text-primary"></i> X Participantes</p>
             <p class="event-owner"><i class="bi bi-star-fill text-warning"></i> Dono do Evento</p>
             <a href="#" class="btn btn-primary" id="event-submit">Confirmar Presença</a>
+            <h3>O Evento Conta com:</h3>
+            <ul id="items-list">
+                @foreach ($event->items as $item)
+                    <li><i class="bi bi-play-fill text-success"><span>{{$item}}</span></i></li>
+                @endforeach
+            </ul>
         </div>
         <div class="col-md-12" id="description-container">
             <h3>Sobre o Evento:</h3>
