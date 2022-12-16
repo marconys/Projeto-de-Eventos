@@ -17,7 +17,7 @@ use App\Http\Controllers\ContactControler;
 use App\Http\Controllers\ProductController;
 
 Route::get('/',[EventController::class, 'index']);
-Route::get('/events/create', [EventController::class, 'create']);
+Route::get('/events/create', [EventController::class, 'create'])->middleware('auth');
 Route::get('/contacts/create', [ContactControler::class, 'contact']);
 Route::get('/events/{id}', [EventController::class, 'show']);
 Route::post('/events', [EventController::class,  'store']);
