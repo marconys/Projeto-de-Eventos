@@ -24,7 +24,14 @@
                 <td scropt="row">{{ $loop->index + 1 }}</td>
                 <td><a href="/events/{{ $event->id }}">{{ $event->title }}</a></td>
                 <td>0</td>
-                <td><a href="#">Editar</a> <a href="#">Deletar</a></td>
+                <td>
+                    <a href="#" class="btn btn-info edit-btn"><i class="bi bi-pencil-square"></i>&nbsp;Editar</a>
+                    <form action="/events/{{$event->id}}" method="POST">
+                    @csrf
+                    @method('DELETE')
+                    <BUtton type="submit" class="btn btn-danger delete-btn"><i class="bi bi-trash-fill"></i>&nbsp;Deletar</BUtton>
+                    </form>
+                </td>
             </tr>
         @endforeach
     </tbody>
