@@ -208,6 +208,15 @@ margin-bottom: 30px;
     display: inline-block;
   }
 
+  /* Edit page */
+
+.img-preview {
+    width: 500px;
+    height: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
 /*footer*/
 
 footer{
