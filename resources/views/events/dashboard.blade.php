@@ -9,7 +9,7 @@
     </div>
     <div class="col-md-10 offset-md-1 dashboard-events-container">
         @if (count($events) > 0)
-            <table class="table">
+            <table class="table table-dark table-hover text-center">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
@@ -47,7 +47,7 @@
     </div>
     <div class="col-md-10 offset-md-1 dashboard-events-container">
         @if (count($eventsasparticipant) > 0)
-            <table class="table">
+            <table class="table table-dark table-hover text-center">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
